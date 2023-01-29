@@ -41,18 +41,19 @@ Lí do tạo file này cũng tương tự như ở trên
 ```json
 {
   "arrowParens": "always",
-  "semi": false,
+  "semi": true,
   "trailingComma": "none",
   "tabWidth": 2,
   "endOfLine": "auto",
   "useTabs": false,
   "singleQuote": false,
   "printWidth": 120,
-  "jsxSingleQuote": false
+  "jsxSingleQuote": false,
+  "singleAttributePerLine": true
 }
 ```
 
-Bên trên là setting mình sử dụng, có thể chỉnh sửa lại tùy theo team thống nhất
+Bên trên là setting mình sử dụng và cảm thấy thích hợp và dễ nhìn nhất, các bạn có thể chỉnh sửa lại tùy theo team thống nhất
 
 ### 4.4. Cài các devDependencies hỗ trợ prettier và eslint trên terminal
 
