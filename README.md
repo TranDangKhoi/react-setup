@@ -10,13 +10,9 @@
 3. Trình duyệt Chrome với extension là React Developer Tool và Redux Dev Tool extension
 4. Git: Tạo repo trên github để quản lý source code
 
-## 2. Khởi tạo Project với CRA
+## 2. Sử dụng prettier và Eslint trong React.js (Tạo bằng Create React App)
 
-## 3. Giới thiệu về cầu trúc folder Project React.Js do CRA tạo
-
-## 4. Sử dụng prettier và Eslint trong React.js (Tạo bằng Create React App)
-
-### 4.1. Setting prettier on User
+### 2.1. Setting prettier on User
 
 - Editor: Default Formatter => Chọn Prettier
 - Editor: Format On Save => true
@@ -24,7 +20,7 @@
 
 Nếu như các bạn muốn setting mỗi workspace hiện tại thôi (nghĩa là cái folder hiện tại) thì các bạn setting bên workspace
 
-### 4.2. Tạo file `.editorconfig` để chia sẻ một số setting giữa các editor với nhau
+### 2.2. Tạo file `.editorconfig` để chia sẻ một số setting giữa các editor với nhau
 
 Một số người khi code họ không sử dụng VSCode giống như mình, họ có thể dùng Visual Studio, IntelliJ, Vim, ... rất nhiều các editor khác nữa đều có các setting editor khác nhau và không thống nhất. Vậy nên ta cần thêm `.editorconfig` để config lại và cụ thể ở dưới mình đang config việc canh lề cách ra bên trái một khoảng
 
@@ -34,7 +30,7 @@ indent_style = space
 indent_size = 2
 ```
 
-### 4.3. Tạo file `.prettierrc` để chia sẻ setting prettier giữa các editor
+### 2.3. Tạo file `.prettierrc` để chia sẻ setting prettier giữa các editor
 
 Lí do tạo file này cũng tương tự như ở trên
 
@@ -55,7 +51,7 @@ Lí do tạo file này cũng tương tự như ở trên
 
 Bên trên là setting mình sử dụng và cảm thấy thích hợp và dễ nhìn nhất, các bạn có thể chỉnh sửa lại tùy theo team thống nhất
 
-### 4.4. Cài các devDependencies hỗ trợ prettier và eslint trên terminal
+### 2.4. Cài các devDependencies hỗ trợ prettier và eslint trên terminal
 
 Ở trên thì chúng ta mới chỉ setting prettier cho editor (tức là UI), bây giờ là cho terminal. Editor thì có thể mỗi máy sẽ kiểm tra khác nhau nhưng trên terminal thì không, setting trên terminal sẽ giúp code thống nhất.
 
@@ -65,7 +61,7 @@ npm i prettier eslint-plugin-prettier eslint-config-prettier -D
 
 Trên là những plugin cần thiết để setting Pretter và Eslint cho CRA. Các bạn nếu dùng yarn thì chạy `yarn add` nhé.
 
-### 4.5. Tạo file `.eslintrc` để setting eslint
+### 2.5. Tạo file `.eslintrc` để setting eslint
 
 ```json
 {
@@ -90,7 +86,7 @@ Trên là những plugin cần thiết để setting Pretter và Eslint cho CRA.
 }
 ```
 
-### 4.6. Thêm scripts vào package.json
+### 2.6. Thêm scripts vào package.json
 
 ```json
 {
@@ -108,8 +104,8 @@ Lúc này bạn chỉ cần chạy
 - `npm run prettier`: Kiểm tra lỗi prettier format
 - `npm run prettier:fix`: Tự fix lỗi prettier format
 
-### 4.7. Thêm file `.prettierrignore` và `.eslintignore` để ignore những file bạn không muốn prettier và eslint format
+### 2.7. Thêm file `.prettierrignore` và `.eslintignore` để ignore những file bạn không muốn prettier và eslint format
 
 Cú pháp viết trong những file này tương tự như trong file `.gitignore`
 
-## 5. CICD và deploy với Vercel
+## 3. CICD và deploy với Vercel
