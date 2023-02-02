@@ -61,7 +61,7 @@ npm i prettier eslint-plugin-prettier eslint-config-prettier -D
 
 Trên là những plugin cần thiết để setting Pretter và Eslint cho CRA. Các bạn nếu dùng yarn thì chạy `yarn add` nhé.
 
-*Update*: Bonus thêm nếu bạn đang sử dụng tailwind thì nên cài thêm `prettier-plugin-tailwindcss`, vì nó sẽ giúp sort class theo thứ tự chuẩn nhất để code các bạn không gặp lỗi override (một lỗi cực kì nghiêm trọng mà sẽ khiến bạn phải mệt mỏi khi debug according to [Theo](https://www.youtube.com/watch?v=QBajvZaWLXs))
+*Update*: Bonus thêm nếu bạn đang sử dụng tailwind thì nên cài thêm `prettier-plugin-tailwindcss`, vì nó sẽ giúp sort class theo thứ tự chuẩn nhất để code các bạn không gặp lỗi override (một lỗi cực kì nghiêm trọng mà sẽ khiến bạn phải mệt mỏi khi debug - According to [Theo](https://youtu.be/QBajvZaWLXs?t=260))
 
 ### 2.5. Tạo file `.eslintrc` để setting eslint
 
