@@ -38,7 +38,7 @@ Lí do tạo file này cũng tương tự như ở trên
 {
   "arrowParens": "always",
   "semi": true,
-  "trailingComma": "none",
+  "trailingComma": "all",
   "tabWidth": 2,
   "endOfLine": "auto",
   "useTabs": false,
@@ -75,7 +75,7 @@ Trên là những plugin cần thiết để setting Pretter và Eslint cho CRA.
       {
         "arrowParens": "always",
         "semi": false,
-        "trailingComma": "none",
+        "trailingComma": "all",
         "tabWidth": 2,
         "endOfLine": "auto",
         "useTabs": false,
