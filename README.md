@@ -237,7 +237,7 @@ module.exports = {
 };
 ```
 
-Tạo một file mới nằm cùng cấp với file `.eslintrc.cjs` vừa tạo với nội dung như sau:
+Tạo một file `.eslintignore` nằm cùng cấp với file `.eslintrc.cjs` vừa tạo với nội dung như sau:
 
 ```json
 node_modules/
