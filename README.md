@@ -126,7 +126,7 @@ Cú pháp viết trong những file này tương tự như trong file `.gitignor
 
 ## 3. CICD và deploy với Vercel
 
-# Cài đặt môi trường để code React + Javascript với Vite
+# Cài đặt môi trường để code React + Javascript với Vite (v4.1.0 trở xuống)
 
 ## 1. Môi trường hoàn hảo để code
 
